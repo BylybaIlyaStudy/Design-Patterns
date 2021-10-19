@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Factory_Method.Factory;
 
 namespace Factory_Method
 {
@@ -6,7 +6,7 @@ namespace Factory_Method
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World_new");
+            new CarFactory().Print(100, 10);
         }
     }
 }
