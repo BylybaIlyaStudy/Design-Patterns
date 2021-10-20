@@ -8,8 +8,19 @@ namespace Abstract_Factory
     {
         static void Main(string[] args)
         {
-            var sportTransportFactory = new SportTransportFactory();
-            var car = sportTransportFactory.CreateCar(4, 2, 1);
+            ITransportFactory transportFactory;
+
+            if (new Random().Next() % 2 == 1)
+            {
+                transportFactory = new SportTransportFactory();
+            }
+            else
+            {
+                transportFactory = new CargoTransportFactory();
+            }
+
+            var car = transportFactory.CreateCar(4, 2, 1);
+            var train = transportFactory.CreateTrain(8, 2, 5);
         }
     }
 }

@@ -7,7 +7,7 @@ using Abstract_Factory.Transport;
 
 namespace Abstract_Factory.Factory
 {
-    public class CargoTranCargoFactory : ITransportFactory
+    public class CargoTransportFactory : ITransportFactory
     {
         public ICar CreateCar(int countOfWheels, int countOfEngines, int countOfSeats)
         {
