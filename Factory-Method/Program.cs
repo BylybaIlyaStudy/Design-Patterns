@@ -1,4 +1,5 @@
-﻿using Factory_Method.Factory;
+﻿using Factory_Method.Transport;
+using System;
 
 namespace Factory_Method
 {
@@ -6,7 +7,11 @@ namespace Factory_Method
     {
         static void Main(string[] args)
         {
-            new CarFactory().Print(100, 10);
+            ITransport transport = Car.Create(200, 50);
+            Console.WriteLine(transport.GetDistance());
+
+            transport = Train.Create(200, 50);
+            Console.WriteLine(transport.GetDistance());
         }
     }
 }

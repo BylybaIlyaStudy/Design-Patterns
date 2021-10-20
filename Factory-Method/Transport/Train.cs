@@ -8,12 +8,17 @@ namespace Factory_Method.Transport
 {
     class Train : Transport
     {
-        public Train(double speed, double fuel)
+        private Train(double speed, double fuel)
         {
             this.FuelConsumption = 200;
 
             this.Speed = speed;
             this.Fuel = fuel;
+        }
+
+        public static ITransport Create(double speed, double fuel)
+        {
+            return new Train(speed, fuel);
         }
 
         public override double GetDistance()
