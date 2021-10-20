@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{215022D4-4385-4B9F-9C74-479F388CFD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{46084817-6859-4153-9FE3-A00766634BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{46084817-6859-4153-9FE3-A00766634BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{B77995D4-5DAB-43FD-8B8A-1BFB808FF189}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{46084817-6859-4153-9FE3-A00766634BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46084817-6859-4153-9FE3-A00766634BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46084817-6859-4153-9FE3-A00766634BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77995D4-5DAB-43FD-8B8A-1BFB808FF189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77995D4-5DAB-43FD-8B8A-1BFB808FF189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77995D4-5DAB-43FD-8B8A-1BFB808FF189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77995D4-5DAB-43FD-8B8A-1BFB808FF189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
