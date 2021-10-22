@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{4DB1B790-9BF1-4E68-9F18-ECCF485EABD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{38EA1D87-4D6F-4E68-B218-9CA88A3D2257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{38EA1D87-4D6F-4E68-B218-9CA88A3D2257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{56C3217E-F7B7-48F0-ACA3-FA32B572FC52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{38EA1D87-4D6F-4E68-B218-9CA88A3D2257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38EA1D87-4D6F-4E68-B218-9CA88A3D2257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38EA1D87-4D6F-4E68-B218-9CA88A3D2257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C3217E-F7B7-48F0-ACA3-FA32B572FC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C3217E-F7B7-48F0-ACA3-FA32B572FC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C3217E-F7B7-48F0-ACA3-FA32B572FC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C3217E-F7B7-48F0-ACA3-FA32B572FC52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
