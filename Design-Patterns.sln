@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{17715448-8C72-4E22-96C6-C3112E8DED78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{37A838F7-EE8B-4E4F-9D02-2D0726C05227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{37A838F7-EE8B-4E4F-9D02-2D0726C05227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template Method", "Template Method\Template Method.csproj", "{16C18CE5-D475-48D3-9142-24D728AF07A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{37A838F7-EE8B-4E4F-9D02-2D0726C05227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37A838F7-EE8B-4E4F-9D02-2D0726C05227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37A838F7-EE8B-4E4F-9D02-2D0726C05227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C18CE5-D475-48D3-9142-24D728AF07A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C18CE5-D475-48D3-9142-24D728AF07A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C18CE5-D475-48D3-9142-24D728AF07A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C18CE5-D475-48D3-9142-24D728AF07A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
